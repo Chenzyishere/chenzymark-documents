@@ -16,6 +16,6 @@ jobs:
         uses: peter-evans/repository-dispatch@v3
         with:
           token: ${{ secrets.BLOG_REPO_PAT }}
-          repository: ChenzyMarkkk/ChenzyMark-Blog_Hexo-site
+          repository: Chenzyishere/ChenzyMark-Blog_Hexo-site
           event-type: content-updated
           client-payload: '{"ref":"${{ github.ref }}","sha":"${{ github.sha }}"}'
